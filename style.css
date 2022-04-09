@@ -13,8 +13,8 @@ body {
 
 .container {
   max-width: 928px;
-  margin: 30 auto;
-  padding: 0 180px;
+  margin: 0 auto;
+  padding: 0 16px;
 }
 
 .page-header {
@@ -188,16 +188,18 @@ body {
   background-image: url("img/icon-phone.svg");
 }
 
-p {
-    font-size: 20px;
+.box {
+  inline-size: 860px;
+  writing-mode: horizontal-tb;
+}
+.bot {
+  inline-size: 860px;
+  writing-mode: horizontal-tb;
 }
 
-h4{ font-size: 24px
+
+.bor {
+  inline-size: 860px;
+  writing-mode: horizontal-tb;
 }
 
-h5{ font-size: 24px
-}
-
-h6{
-font-size:24px
-}
